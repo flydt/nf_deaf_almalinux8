@@ -1,5 +1,7 @@
 #define pr_fmt(fmt) "%s: " fmt, __func__
 
+#include <net/ip.h>
+#include <net/tcp.h>
 #include <linux/bitfield.h>
 #include <linux/debugfs.h>
 #include <linux/netfilter_ipv4.h>
